@@ -1,4 +1,4 @@
-# Mathematical Model for a Rigid Sphere Falling from a Plane
+# Mathematical Model for a Rigid Sphere Falling from an Airplane
 
 ## Defining the System
 
