@@ -32,7 +32,7 @@ At the moment of release ($t = 0$):
     
 2.  **Drag Force** (assuming a quadratic drag model):
     
-    $$\vec{F}_ {\mathrm{d}} = -\frac{1}{2}C_ {\mathrm{d}}\rho A |\vec{v}_{\mathrm{rel}}|\vec{v}_ {\mathrm{rel}}$$
+    $$\vec{F}_ {\mathrm{d}} = -\frac{1}{2}C_ {\mathrm{d}}\rho A |\vec{v}_ {\mathrm{rel}}|\vec{v}_ {\mathrm{rel}}$$
     
     Where:
     
