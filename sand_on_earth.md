@@ -50,7 +50,7 @@ For beaches and coastlines:
 
 -   Average width: $50 \text{ m}$
 -   Average depth: $3\,\text{m}$
--   Total volume: $V_{\mathrm{beach}} \approx 356,\!000 \text{ km} \times 50 \text{ m} \times 3 \text{ m} \approx 5.34 \times 10^{10} \text{ m}^3$
+-   Total volume: $V_{\mathrm{beach}} \approx 356,\\!000 \text{ km} \times 50 \text{ m} \times 3 \text{ m} \approx 5.34 \times 10^{10} \text{ m}^3$
 
 For continental shelves:
 
