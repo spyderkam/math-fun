@@ -32,7 +32,7 @@ At the moment of release ($t = 0$):
     
 2.  **Drag Force** (assuming a quadratic drag model):
     
-    $$\vec{F}_ {\mathrm{d}} = -\frac{1}{2}C_ {\mathrm{d}}\rho A |\vec{v}_ {\mathrm{rel}}|\vec{v}_ {\mathrm{rel}}$$
+    $$ \vec{F}_ {\mathrm{d}} = -\frac{1}{2}C_ {\mathrm{d}}\rho A |\vec{v}_ {\mathrm{rel}}|\vec{v}_ {\mathrm{rel}} $$
     
     Where:
     
@@ -72,11 +72,11 @@ $$
     
 2.  **Wind Effects**: You might need to consider ambient wind velocity $\vec{v}_{\mathrm{wind}}$ when calculating relative velocity:
     
-    $$\vec{v}_ {\mathrm{rel}} = \vec{v} - \vec{v}_ {\mathrm{wind}}$$
+    $$ \vec{v}_ {\mathrm{rel}} = \vec{v} - \vec{v}_ {\mathrm{wind}} $$
     
 3.  **Reynolds Number** effects on the drag coefficient:
     
-    $$\mathrm{Re} = \frac{\rho|\vec{v}_ {\mathrm{rel}}|d}{\mu}$$
+    $$ \mathrm{Re} = \frac{\rho|\vec{v}_ {\mathrm{rel}}|d}{\mu} $$
     
     Where $\mu$ is the dynamic viscosity of air.
     
