@@ -68,7 +68,7 @@ $$
     
     $$ \rho(z) = \rho_0 e^{-z/H} $$
     
-    Where $\rho_ 0$ is sea-level density and $H$ is the scale height ($\sim\!8.5\,\mathrm{km}$).
+    Where $\rho_ 0$ is sea-level density and $H$ is the scale height ($\sim \! 8.5\,\mathrm{km}$).
     
 2.  **Wind Effects**: You might need to consider ambient wind velocity $\vec{v}_{\mathrm{wind}}$ when calculating relative velocity:
     
