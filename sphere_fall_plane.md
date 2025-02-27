@@ -36,7 +36,7 @@ At the moment of release ($t = 0$):
     
     Where:
     
-    -   $C_ {\mathrm{d}}$ is the drag coefficient (approximately 0.47 for a sphere in turbulent flow)
+    -   $C_ {\mathrm{d}}$ is the drag coefficient (approximately $0.47$ for a sphere in turbulent flow)
     -   $\rho$ is the air density (which varies with altitude)
     -   $A = \pi(d/2)^2$ is the cross-sectional area of the sphere
     -   $\vec{v}_ {\mathrm{rel}}$ is the velocity of the sphere relative to the air
@@ -49,7 +49,7 @@ $$ m\vec{a} = \sum \vec{F} = \vec{F}_ {\mathrm{g}} + \vec{F}_{\mathrm{d}} $$
 
 This gives us:
 
-$$ m\frac{d^2\vec{r}}{dt^2} = -mg\hat{z} - \frac{1}{2}C_ {\mathrm{d}}\rho\pi\frac{d^2}{4}|\vec{v}_ {\mathrm{rel}}|\vec{v}_ {\mathrm{rel}} $$
+$$ m\ddot{r} = -mg\hat{z} - \frac{1}{2}C_ {\mathrm{d}}\rho\pi\frac{d^2}{4}|\vec{v}_ {\mathrm{rel}}|\vec{v}_ {\mathrm{rel}} $$
 
 ## Component Form
 
