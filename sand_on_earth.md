@@ -18,11 +18,11 @@ Where:
 
 ### Sand Grain Properties
 
-Sand is geologically defined as particles with diameters ($d$) in the range of $0.0625\,\mathrm{mm}$ to $2\,\mathrm{mm}$. The grain size distribution follows approximately a log-normal distribution:
+Sand is geologically defined as particles with diameters ($d$) in the range of $0.0625\\,\mathrm{mm}$ to $2\\,\mathrm{mm}$. The grain size distribution follows approximately a log-normal distribution:
 
 $$f(d) = \frac{1}{d\sigma\sqrt{2\pi}}\exp \left[-\frac{(\ln d - \mu)^2}{2\sigma^2}\right]$$
 
-For our calculation, we can use a geometric mean diameter of approximately $0.5\,\mathrm{mm}$ as the central tendency value. Assuming a roughly spherical shape, the average volume per grain is:
+For our calculation, we can use a geometric mean diameter of approximately $0.5\\,\mathrm{mm}$ as the central tendency value. Assuming a roughly spherical shape, the average volume per grain is:
 
 $$\bar{v} = \frac{4}{3}\pi\left(\frac{d}{2}\right)^3  \approx 6.5 \times 10^{-11} \text{ m}^3$$
 
@@ -49,7 +49,7 @@ For desert regions, we can estimate:
 For beaches and coastlines:
 
 -   Average width: $50 \text{ m}$
--   Average depth: $3\,\text{m}$
+-   Average depth: $3\\,\text{m}$
 -   Total volume: $V_{\mathrm{beach}} \approx 356,\\!000 \text{ km} \times 50 \text{ m} \times 3 \text{ m} \approx 5.34 \times 10^{10} \text{ m}^3$
 
 For continental shelves:
