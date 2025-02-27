@@ -1,3 +1,4 @@
+
 # Modeling the Radius of a Post-Impact Debris Cloud
 
 To model the relationship between the radius of the cloud sphere ($R_{\mathrm{c}}$) and the original solid sphere ($R_{\mathrm{s}}$), We will analyze this problem using principles of mass conservation and packing density.
@@ -40,11 +41,11 @@ Substituting the formulas for spherical volumes: $\frac{4}{3}\pi R_{\mathrm{s}}^
 
 Solving for the ratio of radii:
 
-$$ \dfrac{R_{\mathrm{c}}}{R_{\mathrm{s}}} = \left(\frac{1}{\phi_{\mathrm{c}}}\right)^{1/3} $$
+$$ \boxed{\dfrac{R_{\mathrm{c}}}{R_{\mathrm{s}}} = \left(\frac{1}{\phi_{\mathrm{c}}}\right)^{1/3}} $$
 
 ## Interpreting the Model
 
-This formula shows that the ratio of the cloud radius to the original sphere radius depends on the cube root of the reciprocal of the packing density. Since $ \phi_ {\mathrm{c}} < 1 $ (the debris cannot pack as efficiently as the original solid), we confirm that $ R_ {\mathrm{c}} > R_ {\mathrm{s}} $ as expected.
+This formula shows that the ratio of the cloud radius to the original sphere radius depends on the cube root of the reciprocal of the packing density. Since $\phi_ {\mathrm{c}} < 1$ (the debris cannot pack as efficiently as the original solid), we confirm that $R_ {\mathrm{c}} > R_ {\mathrm{s}}$ as expected.
 
 The exact value of $\phi_{\mathrm{c}}$ would depend on:
 
