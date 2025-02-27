@@ -28,7 +28,7 @@ At the moment of release ($t = 0$):
 
 1.  **Gravitational Force**:
     
-    $$\vec{F}_ {\mathrm{g}} = m\vec{g} = -mg\hat{z}$$
+    $$ \vec{F}_ {\mathrm{g}} = m\vec{g} = -mg\hat{z} $$
     
 2.  **Drag Force** (assuming a quadratic drag model):
     
