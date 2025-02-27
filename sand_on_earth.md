@@ -5,7 +5,7 @@
 
 To estimate the number of sand grains on Earth, we need to establish a rigorous mathematical framework that breaks this seemingly overwhelming problem into manageable components. The fundamental equation for our estimation is:
 
-$$N_{\mathrm{total}} = \frac{V_{\mathrm{total}} \times \eta_{\mathrm{pack}}}{\bar{v}}$$
+$$ N_{\mathrm{total}} = \frac{V_{\mathrm{total}} \times \eta_{\mathrm{pack}}}{\bar{v}} $$
 
 Where:
 
@@ -20,7 +20,7 @@ Where:
 
 Sand is geologically defined as particles with diameters ($d$) in the range of $0.0625\\,\mathrm{mm}$ to $2\\,\mathrm{mm}$. The grain size distribution follows approximately a log-normal distribution:
 
-$$f(d) = \frac{1}{d\sigma\sqrt{2\pi}}\exp \left[-\frac{(\ln d - \mu)^2}{2\sigma^2}\right]$$
+$$ f(d) = \frac{1}{d\sigma\sqrt{2\pi}}\exp \left[-\frac{(\ln d - \mu)^2}{2\sigma^2}\right] $$
 
 For our calculation, we can use a geometric mean diameter of approximately $0.5\\,\mathrm{mm}$ as the central tendency value. Assuming a roughly spherical shape, the average volume per grain is:
 
@@ -56,7 +56,7 @@ For continental shelves:
 
 -   Area: $32 \times 10^6 \text{ km}^2$
 -   Average sand layer: $2 \text{ m}$ (conservative estimate with $25\%$ coverage)
--   Total volume: $V_{\mathrm{shelf}} \approx 32 \times 10^6 \text{ km}^2 \times 0.25 \times 2 \text{ m} \approx 1.6 \times 10^{13} \text{ m}^3$
+-   Total volume: $V_ {\mathrm{shelf}} \approx 32 \times 10^6 \text{ km}^2 \times 0.25 \times 2 \text{ m} \approx 1.6 \times 10^{13} \text{ m}^3$
 
 For river systems:
 
@@ -66,7 +66,7 @@ For river systems:
 
 The total estimated sand volume is:
 
-$$V_{\mathrm{total}} = V_{\mathrm{desert}} + V_{\mathrm{beach}} + V_{\mathrm{shelf}} + V_{\mathrm{river}} \approx 9.9 \times 10^{13} \text{ m}^3$$
+$$V_{\mathrm{total}} = V_ {\mathrm{desert}} + V_ {\mathrm{beach}} + V_ {\mathrm{shelf}} + V_ {\mathrm{river}} \approx 9.9 \times 10^{13} \text{ m}^3$$
 
 The number of sand grains can now be calculated:
 
@@ -83,7 +83,7 @@ Our estimate is subject to significant uncertainties from multiple sources:
 
 Applying error propagation techniques to these uncertainties yields an approximate order-of-magnitude confidence interval:
 
-$$N_{\mathrm{total}} = 9.1 \times 10^{23} \text{ with a range of } 10^{23} \text{ to } 10^{24}$$
+$$ N_ {\mathrm{total}} = 9.1 \times 10^{23} \text{ with a range of } 10^{23} \text{ to } 10^{24} $$
 
 ## Conclusion
 
