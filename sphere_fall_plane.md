@@ -45,11 +45,11 @@ At the moment of release ($t = 0$):
 
 Using Newton's Second Law:
 
-$$m\vec{a} = \sum \vec{F} = \vec{F}_ {\mathrm{g}} + \vec{F}_{\mathrm{d}}$$
+$$ m\vec{a} = \sum \vec{F} = \vec{F}_ {\mathrm{g}} + \vec{F}_{\mathrm{d}} $$
 
 This gives us:
 
-$$m\frac{d^2\vec{r}}{dt^2} = -mg\hat{z} - \frac{1}{2}C_ {\mathrm{d}}\rho\pi\frac{d^2}{4}|\vec{v}_ {\mathrm{rel}}|\vec{v}_ {\mathrm{rel}}$$
+$$ m\frac{d^2\vec{r}}{dt^2} = -mg\hat{z} - \frac{1}{2}C_ {\mathrm{d}}\rho\pi\frac{d^2}{4}|\vec{v}_ {\mathrm{rel}}|\vec{v}_ {\mathrm{rel}} $$
 
 ## Component Form
 
@@ -57,16 +57,16 @@ Breaking this into component equations:
 
 $$ 
 \begin{align*}
-&m\ddot{x} = -\frac{1}{2}C_ {\mathrm{d}}\rho\pi\frac{d^2}{4}|\vec{v}_ {\mathrm{rel}}|v_ {\mathrm{rel},x} \\
-&m\ddot{y} = -\frac{1}{2}C_ {\mathrm{d}}\rho\pi\frac{d^2}{4}|\vec{v}_ {\mathrm{rel}}|v_ {\mathrm{rel},y} \\
-&m\ddot{z} = -mg -\frac{1}{2}C_ {\mathrm{d}}\rho\pi\frac{d^2}{4}|\vec{v}_ {\mathrm{rel}}|v_ {\mathrm{rel},z}
+  &m\ddot{x} = -\frac{1}{2}C_ {\mathrm{d}}\rho\pi\frac{d^2}{4}|\vec{v}_ {\mathrm{rel}}|v_ {\mathrm{rel},x} \\
+  &m\ddot{y} = -\frac{1}{2}C_ {\mathrm{d}}\rho\pi\frac{d^2}{4}|\vec{v}_ {\mathrm{rel}}|v_ {\mathrm{rel},y} \\
+  &m\ddot{z} = -mg -\frac{1}{2}C_ {\mathrm{d}}\rho\pi\frac{d^2}{4}|\vec{v}_ {\mathrm{rel}}|v_ {\mathrm{rel},z}
 \end{align*}
 $$
 ## Additional Considerations
 
 1.  **Air Density Variation** with altitude:
     
-    $$\rho(z) = \rho_0 e^{-z/H}$$
+    $$ \rho(z) = \rho_0 e^{-z/H} $$
     
     Where $\rho_ 0$ is sea-level density and $H$ is the scale height (~8.5 km).
     
