@@ -45,7 +45,7 @@ $$ \boxed{\dfrac{R_{\mathrm{c}}}{R_{\mathrm{s}}} = \left(\frac{1}{\phi_{\mathrm{
 
 ## Interpreting the Model
 
-This formula shows that the ratio of the cloud radius to the original sphere radius depends on the cube root of the reciprocal of the packing density. Since $\phi_ {\mathrm{c}} < 1$ (the debris cannot pack as efficiently as the original solid), we confirm that $R_ {\mathrm{c}} > R_ {\mathrm{s}}$ as expected.
+This formula shows that the ratio of the cloud radius to the original sphere radius depends on the cube root of the reciprocal of the packing density. Since $ \phi_ {\mathrm{c}} < 1 $ (the debris cannot pack as efficiently as the original solid), we confirm that $ R_ {\mathrm{c}} > R_ {\mathrm{s}} $ as expected.
 
 The exact value of $\phi_{\mathrm{c}}$ would depend on:
 
