@@ -28,18 +28,18 @@ At the moment of release ($t = 0$):
 
 1.  **Gravitational Force**:
     
-    $$\vec{F}_{\mathrm{g}} = m\vec{g} = -mg\hat{z}$$
+    $$\vec{F}_ {\mathrm{g}} = m\vec{g} = -mg\hat{z}$$
     
 2.  **Drag Force** (assuming a quadratic drag model):
     
-    $$\vec{F}_{\mathrm{d}} = -\frac{1}{2}C_ {\mathrm{d}}\rho A |\vec{v}_{\mathrm{rel}}|\vec{v}_ {\mathrm{rel}}$$
+    $$\vec{F}_ {\mathrm{d}} = -\frac{1}{2}C_ {\mathrm{d}}\rho A |\vec{v}_{\mathrm{rel}}|\vec{v}_ {\mathrm{rel}}$$
     
     Where:
     
-    -   $C_{\mathrm{d}}$ is the drag coefficient (approximately 0.47 for a sphere in turbulent flow)
+    -   $C_ {\mathrm{d}}$ is the drag coefficient (approximately 0.47 for a sphere in turbulent flow)
     -   $\rho$ is the air density (which varies with altitude)
     -   $A = \pi(d/2)^2$ is the cross-sectional area of the sphere
-    -   $\vec{v}_{\mathrm{rel}}$ is the velocity of the sphere relative to the air
+    -   $\vec{v}_ {\mathrm{rel}}$ is the velocity of the sphere relative to the air
 
 ## Equations of Motion
 
