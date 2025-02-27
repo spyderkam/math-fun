@@ -5,7 +5,7 @@
 A mathematical model requires clear definition of variables:
 
 -   A rigid sphere with mass $m$ and diameter $d$
--   A plane flying at velocity $\vec{v}_{\mathrm{p}}$ with acceleration $\vec{a}_{\mathrm{p}}$ at altitude $h$
+-   A plane flying at velocity $\vec{v}_ {\mathrm{p}}$ with acceleration $\vec{a}_{\mathrm{p}}$ at altitude $h$
 -   Earth's gravitational acceleration $\vec{g} = -g\hat{z}$ where $g \approx 9.81$ m/s²
 
 ## Coordinate System
@@ -32,7 +32,7 @@ At the moment of release ($t = 0$):
     
 2.  **Drag Force** (assuming a quadratic drag model):
     
-    $$\vec{F}_{\mathrm{d}} = -\frac{1}{2}C_{\mathrm{d}}\rho A |\vec{v}_{\mathrm{rel}}|\vec{v}_{\mathrm{rel}}$$
+    $$\vec{F}_{\mathrm{d}} = -\frac{1}{2}C_ {\mathrm{d}}\rho A |\vec{v}_{\mathrm{rel}}|\vec{v}_ {\mathrm{rel}}$$
     
     Where:
     
@@ -45,11 +45,11 @@ At the moment of release ($t = 0$):
 
 Using Newton's Second Law:
 
-$$m\vec{a} = \sum \vec{F} = \vec{F}_{\mathrm{g}} + \vec{F}_{\mathrm{d}}$$
+$$m\vec{a} = \sum \vec{F} = \vec{F}_ {\mathrm{g}} + \vec{F}_{\mathrm{d}}$$
 
 This gives us:
 
-$$m\frac{d^2\vec{r}}{dt^2} = -mg\hat{z} - \frac{1}{2}C_{\mathrm{d}}\rho\pi\frac{d^2}{4}|\vec{v}_{\mathrm{rel}}|\vec{v}_{\mathrm{rel}}$$
+$$m\frac{d^2\vec{r}}{dt^2} = -mg\hat{z} - \frac{1}{2}C_ {\mathrm{d}}\rho\pi\frac{d^2}{4}|\vec{v}_ {\mathrm{rel}}|\vec{v}_ {\mathrm{rel}}$$
 
 ## Component Form
 
@@ -57,9 +57,9 @@ Breaking this into component equations:
 
 $$ 
 \begin{align*}
-&m\ddot{x} = -\frac{1}{2}C_{\mathrm{d}}\rho\pi\frac{d^2}{4}|\vec{v}_{\mathrm{rel}}|v_{\mathrm{rel},x} \\
-&m\ddot{y} = -\frac{1}{2}C_{\mathrm{d}}\rho\pi\frac{d^2}{4}|\vec{v}_{\mathrm{rel}}|v_{\mathrm{rel},y} \\
-&m\ddot{z} = -mg -\frac{1}{2}C_{\mathrm{d}}\rho\pi\frac{d^2}{4}|\vec{v}_{\mathrm{rel}}|v_{\mathrm{rel},z}
+&m\ddot{x} = -\frac{1}{2}C_ {\mathrm{d}}\rho\pi\frac{d^2}{4}|\vec{v}_ {\mathrm{rel}}|v_ {\mathrm{rel},x} \\
+&m\ddot{y} = -\frac{1}{2}C_ {\mathrm{d}}\rho\pi\frac{d^2}{4}|\vec{v}_ {\mathrm{rel}}|v_ {\mathrm{rel},y} \\
+&m\ddot{z} = -mg -\frac{1}{2}C_ {\mathrm{d}}\rho\pi\frac{d^2}{4}|\vec{v}_ {\mathrm{rel}}|v_ {\mathrm{rel},z}
 \end{align*}
 $$
 ## Additional Considerations
@@ -68,15 +68,15 @@ $$
     
     $$\rho(z) = \rho_0 e^{-z/H}$$
     
-    Where $\rho_0$ is sea-level density and $H$ is the scale height (~8.5 km).
+    Where $\rho_ 0$ is sea-level density and $H$ is the scale height (~8.5 km).
     
 2.  **Wind Effects**: You might need to consider ambient wind velocity $\vec{v}_{\mathrm{wind}}$ when calculating relative velocity:
     
-    $$\vec{v}_{\mathrm{rel}} = \vec{v} - \vec{v}_{\mathrm{wind}}$$
+    $$\vec{v}_ {\mathrm{rel}} = \vec{v} - \vec{v}_ {\mathrm{wind}}$$
     
 3.  **Reynolds Number** effects on the drag coefficient:
     
-    $$\mathrm{Re} = \frac{\rho|\vec{v}_{\mathrm{rel}}|d}{\mu}$$
+    $$\mathrm{Re} = \frac{\rho|\vec{v}_ {\mathrm{rel}}|d}{\mu}$$
     
     Where $\mu$ is the dynamic viscosity of air.
     
